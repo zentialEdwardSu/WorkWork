@@ -24,7 +24,6 @@ export default function Page() {
           <SidebarLeft />
 
           <Tabs defaultValue="calendar" className="flex flex-1 flex-col overflow-hidden">
-            {/* 固定头部 */}
             <header className="bg-background flex h-14 shrink-0 items-center gap-2 z-10">
               <div className="flex flex-1 items-center gap-2 px-3">
                 <SidebarTrigger />
@@ -53,7 +52,6 @@ export default function Page() {
               </div>
             </header>
 
-            {/* 日历视图 */}
             <TabsContent
               value="calendar"
               className="flex flex-1 m-0 overflow-hidden"
