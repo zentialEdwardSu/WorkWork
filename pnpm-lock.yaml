@@ -50,6 +50,9 @@ importers:
       '@types/react-big-calendar':
         specifier: ^1.16.2
         version: 1.16.2
+      '@vitejs/plugin-react-oxc':
+        specifier: ^0.3.0
+        version: 0.3.0(rolldown-vite@7.0.9(@types/node@22.16.3)(esbuild@0.25.6)(jiti@2.4.2)(terser@5.43.1))
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -1919,6 +1922,12 @@ packages:
     resolution: {integrity: sha512-tWRF/tsqGkND5+dDVnJz7DzQkIRjtTRRYvA3y6l4FwTwK47OK72p1X7ResSz6T7PimIZMuFd+arsB8NRIG+Sww==}
     engines: {node: '>=16.14.0'}
     hasBin: true
+
+  '@vitejs/plugin-react-oxc@0.3.0':
+    resolution: {integrity: sha512-OaqaDIc74NNuqH1xKGbGoErpKP8L1XlxBQsfWvIUfpQaDCe5El9Ac5mPrvn/Dg0pv3xKB/PNm4Wirxr6hnKu/A==}
+    engines: {node: '>=20.0.0'}
+    peerDependencies:
+      vite: ^6.3.0 || ^7.0.0
 
   '@vitejs/plugin-react-swc@3.10.2':
     resolution: {integrity: sha512-xD3Rdvrt5LgANug7WekBn1KhcvLn1H3jNBfJRL3reeOIua/WnZOEV5qi5qIBq5T8R0jUDmRtxuvk4bPhzGHDWw==}
@@ -5541,6 +5550,11 @@ snapshots:
       sharp: 0.33.5
       sharp-ico: 0.1.5
       unconfig: 7.3.2
+
+  '@vitejs/plugin-react-oxc@0.3.0(rolldown-vite@7.0.9(@types/node@22.16.3)(esbuild@0.25.6)(jiti@2.4.2)(terser@5.43.1))':
+    dependencies:
+      '@rolldown/pluginutils': 1.0.0-beta.27
+      vite: rolldown-vite@7.0.9(@types/node@22.16.3)(esbuild@0.25.6)(jiti@2.4.2)(terser@5.43.1)
 
   '@vitejs/plugin-react-swc@3.10.2(rolldown-vite@7.0.9(@types/node@22.16.3)(esbuild@0.25.6)(jiti@2.4.2)(terser@5.43.1))':
     dependencies:

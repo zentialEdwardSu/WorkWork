@@ -24,6 +24,7 @@
     "@tabler/icons-react": "^3.31.0",
     "@tailwindcss/vite": "^4.0.13",
     "@types/react-big-calendar": "^1.16.2",
+    "@vitejs/plugin-react-oxc": "^0.3.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",

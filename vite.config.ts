@@ -1,7 +1,7 @@
 import path from "path";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react-swc";
+import react from "@vitejs/plugin-react-oxc";
 import { VitePWA } from "vite-plugin-pwa";
 
 // https://vite.dev/config/
@@ -13,9 +13,9 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["favicon.svg", "robots.txt", "apple-touch-icon.png"],
       manifest: {
-        name: "Vite React App",
-        short_name: "ViteReact",
-        description: "A Vite + React + TypeScript application",
+        name: "WorkWork",
+        short_name: "WKWK",
+        description: "A todo, calendar and gantt management app",
         theme_color: "#ffffff",
         icons: [
           {
